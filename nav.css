@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+}
+
+nav {
+  color: black;
+  width: 100%;
+  height: 175px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+/* Title and Subtitle */
+nav .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+nav .title h1 {
+  font-family: ligurino,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+nav .title p {
+  font-family: ligurino-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 23px;
+}
+
+/* Nav Links */
+nav .nav-links {
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .nav-links > .nav-link {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav .nav-links > .nav-link a {
+  font-size: 20px;
+  font-family: ligurino-condensed,sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+}
+
+nav .nav-links > .nav-link a:hover {
+  letter-spacing: 1px;
+  color: #646464;
+}

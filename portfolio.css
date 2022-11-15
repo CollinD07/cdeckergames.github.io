@@ -1,0 +1,15 @@
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+section > .itch-io-links {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #f9f9f9;
+  width: 80%;
+  height: 500px;
+}
+

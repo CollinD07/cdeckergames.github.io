@@ -1,0 +1,23 @@
+.card {
+  width: 80%;
+  height: 350px;
+  background-color: lightgray;
+}
+
+.card h2 {
+    font-family: ligurino,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card h5 {
+  font-family: ligurino-condensed,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.card p {
+  font-family: jaf-bernina-sans,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
