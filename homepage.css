@@ -17,8 +17,11 @@
 }
 
 .portfolio-link > .portfolio-link-inner a {
-  color: #3636dd;
+  color: #c7c7c7;
   transition: 0.5s;
+  width: 75px;
+  height: 50px;
+  background-color: #3636dd;
 }
 
 .portfolio-link > .portfolio-link-inner a:hover {
