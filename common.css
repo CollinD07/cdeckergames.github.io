@@ -6,9 +6,9 @@ hr {
 
 /* Buttons */
 .button.rounded.large {
-  height: 60px;
+  height: 20px;
   padding: 25px 40px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
