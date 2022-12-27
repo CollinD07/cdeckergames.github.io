@@ -16,7 +16,7 @@
   font-size: 30px;
 }
 
-.portfolio-link > .portfolio-link-inner a {
+/* .portfolio-link > .portfolio-link-inner a {
   color: #ffffff;
   transition: 0.5s;
   width: 75px;
@@ -28,7 +28,7 @@
 .portfolio-link > .portfolio-link-inner a:hover {
   color: #ffffff;
   background-color: #4e7dbb;
-}
+} */
 
 /* Dev Log Link Section */
 .devlog-link {
