@@ -4,6 +4,56 @@ hr {
   padding-bottom: 50px;
 }
 
+/* Buttons */
+.button.rounded.large {
+  height: 60px;
+  padding: 25px 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.button.rounded {
+  border-radius: 50px;
+}
+
+.button {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  padding: 16px 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  border: 0px none #000;
+  border-radius: 50px;
+  background-color: #78e0ff;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+}
+
+.w-inline-block {
+  max-width: 100%;
+  display: inline-block;
+}
+
 /* Scroll Bar */
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
@@ -19,5 +69,5 @@ hr {
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #D62929;
+  background-color: #dbdbdb;
 }
