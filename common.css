@@ -5,7 +5,50 @@ hr {
 }
 
 /* Buttons */
-.button.rounded.large {
+
+.button-21 {
+  align-items: center;
+  appearance: none;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #0068d3, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .3s,background-position .3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.button-21:active,
+.button-21:focus {
+  outline: none;
+}
+
+.button-21:hover {
+  background-position: -20px -20px;
+}
+
+.button-21:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+/* .button.rounded.large {
   height: 20px;
   padding: 25px 40px;
   font-size: 20px;
@@ -37,7 +80,7 @@ hr {
   flex: 0 auto;
   border: 0px none #000;
   border-radius: 50px;
-  background-color: #3dc8f1;
+  background-color: #2acdff;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   color: #fff;
@@ -52,7 +95,7 @@ hr {
 .w-inline-block {
   max-width: 100%;
   display: inline-block;
-}
+} */
 
 /* Scroll Bar */
 ::-webkit-scrollbar-track {
