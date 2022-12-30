@@ -38,7 +38,7 @@
 }
 
 /* Portfolio Button */
-.portfolio-link-inner > .buttonP {
+.portfolio-link-inner > a .buttonP {
   display: inline-block;
   border-radius: 50px;
   background-color: #487da8;
@@ -53,18 +53,18 @@
   margin: 5px;
 }
 
-.portfolio-link-inner > .buttonP:hover {
+.portfolio-link-inner > a .buttonP:hover {
   background-color: #385872;
 }
 
-.portfolio-link-inner > .buttonP span {
+.portfolio-link-inner > a .buttonP span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.portfolio-link-inner > .buttonP span:after {
+.portfolio-link-inner > a .buttonP span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -73,17 +73,17 @@
   transition: 0.5s;
 }
 
-.portfolio-link-inner > .buttonP:hover span {
+.portfolio-link-inner > a .buttonP:hover span {
   padding-right: 25px;
 }
 
-.portfolio-link-inner > .buttonP:hover span:after {
+.portfolio-link-inner > a .buttonP:hover span:after {
   opacity: 1;
   right: 0;
 }
 
 /* Devlog Button */
-.devlog-link-inner > .buttonDL {
+.devlog-link-inner > a .buttonDL {
   display: inline-block;
   border-radius: 50px;
   background-color: #385872;
@@ -98,19 +98,19 @@
   margin: 5px;
 }
 
-.devlog-link-inner > .buttonDL:hover {
+.devlog-link-inner > a .buttonDL:hover {
   background-color: #487da8;
   border-radius: 20;
 }
 
-.devlog-link-inner > .buttonDL span {
+.devlog-link-inner > a .buttonDL span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-.devlog-link-inner > .buttonDL span:after {
+.devlog-link-inner > a .buttonDL span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -119,11 +119,11 @@
   transition: 0.5s;
 }
 
-.devlog-link-inner > .buttonDL:hover span {
+.devlog-link-inner > a .buttonDL:hover span {
   padding-right: 25px;
 }
 
-.devlog-link-inner > .buttonDL:hover span:after {
+.devlog-link-inner > a .buttonDL:hover span:after {
   opacity: 1;
   right: 0;
 }
