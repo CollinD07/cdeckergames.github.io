@@ -14,21 +14,8 @@
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  text-align: center;
 }
-
-/* .portfolio-link > .portfolio-link-inner a {
-  color: #ffffff;
-  transition: 0.5s;
-  width: 75px;
-  height: 50px;
-  background-color: #3636dd;
-  text-decoration: none;
-}
-
-.portfolio-link > .portfolio-link-inner a:hover {
-  color: #ffffff;
-  background-color: #4e7dbb;
-} */
 
 /* Dev Log Link Section */
 .devlog-link {
@@ -37,28 +24,106 @@
   justify-content: center;
   width: 100%;
   height: 400px;
-  background-color: #e4e4e4;
+  background-color: #e2eff9;
+  border-bottom-style: solid;
+  border-width: 2px;
 }
 
 .devlog-link > .devlog-link-inner {
-  display: flex;
-  justify-content: center;
   font-family: ligurino,sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 30px;
+  text-align: center;
 }
 
-.devlog-link > .devlog-link-inner a {
+/* Portfolio Button */
+.portfolio-link-inner > .buttonP {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #487da8;
+  border: none;
   color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.portfolio-link-inner > .buttonP:hover {
+  background-color: #385872;
+}
+
+.portfolio-link-inner > .buttonP span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
   transition: 0.5s;
-  width: 75px;
-  height: 50px;
-  background-color: #3636dd;
-  text-decoration: none;
 }
 
-.devlog-link > .devlog-link-inner a:hover {
+.portfolio-link-inner > .buttonP span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.portfolio-link-inner > .buttonP:hover span {
+  padding-right: 25px;
+}
+
+.portfolio-link-inner > .buttonP:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/* Devlog Button */
+.devlog-link-inner > .buttonDL {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #385872;
+  border: none;
   color: #ffffff;
-  background-color: #81acdd;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.devlog-link-inner > .buttonDL:hover {
+  background-color: #487da8;
+  border-radius: 20;
+}
+
+.devlog-link-inner > .buttonDL span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.devlog-link-inner > .buttonDL span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.devlog-link-inner > .buttonDL:hover span {
+  padding-right: 25px;
+}
+
+.devlog-link-inner > .buttonDL:hover span:after {
+  opacity: 1;
+  right: 0;
 }

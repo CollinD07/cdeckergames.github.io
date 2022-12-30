@@ -1,116 +1,18 @@
-hr {
-  border: 0;
-  border-top: 2px dashed;
-  padding-bottom: 50px;
+.container {
+  overflow: scroll;
 }
 
-/* Buttons */
-
-.button-21 {
-  align-items: center;
-  appearance: none;
-  background-color: #3EB2FD;
-  background-image: linear-gradient(1deg, #0068d3, #149BF3 99%);
-  background-size: calc(100% + 20px) calc(100% + 20px);
-  border-radius: 100px;
-  border-width: 0;
-  box-shadow: none;
-  box-sizing: border-box;
-  color: #FFFFFF;
-  cursor: pointer;
-  display: inline-flex;
-  font-size: 1rem;
-  height: auto;
-  justify-content: center;
-  line-height: 1.5;
-  padding: 6px 20px;
-  position: relative;
-  text-align: center;
-  text-decoration: none;
-  transition: background-color .3s,background-position .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align: top;
-  white-space: nowrap;
+.container::-webkit-scrollbar {
+  width: 10px;
+  background-color: transparent;
 }
 
-.button-21:active,
-.button-21:focus {
-  outline: none;
-}
-
-.button-21:hover {
-  background-position: -20px -20px;
-}
-
-.button-21:focus:not(:active) {
-  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
-}
-
-/* .button.rounded.large {
-  height: 20px;
-  padding: 25px 40px;
-  font-size: 20px;
-  font-weight: 400;
-}
-
-.button.rounded {
-  border-radius: 50px;
-}
-
-.button {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 50px;
-  padding: 16px 20px;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  border: 0px none #000;
-  border-radius: 50px;
-  background-color: #2acdff;
-  -webkit-transition: all 300ms ease;
-  transition: all 300ms ease;
-  color: #fff;
-  font-size: 14px;
-  line-height: 1;
-  font-weight: 400;
-  text-align: center;
-  letter-spacing: 0.03em;
-  white-space: nowrap;
-}
-
-.w-inline-block {
-  max-width: 100%;
-  display: inline-block;
-} */
-
-/* Scroll Bar */
-::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+.container::-webkit-scrollbar-thumb {
+  background-color: #6441A5;
   border-radius: 10px;
-  background-color: #F5F5F5;
+  border: 2px solid #6441A5;
 }
 
-::-webkit-scrollbar {
-  width: 12px;
-  background-color: #F5F5F5;
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-  background-color: #b9b9b9;
+.container::-webkit-scrollbar-thumb:hover {
+  background-color: #7F53AC;
 }
