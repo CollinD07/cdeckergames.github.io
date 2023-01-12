@@ -11,14 +11,14 @@ nav {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.title h1 {
+nav .title h1 {
   font-family: ligurino,sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 2rem;
 }
 
-.title p {
+nav .title p {
   font-family: ligurino,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -37,14 +37,14 @@ li {
   margin: 0 1em;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #000;
   font-size: 1.2em;
   transition: color 0.3s;
 }
 
-a:hover {
+nav a:hover {
   color: #487da8;
 }
 
@@ -53,40 +53,35 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 40px 0;
+  font-family: poppins,sans-serif;
 }
 
-footer h3 {
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 20px;
+footer .container {
+  padding-left: 75px;
+  padding-right: 75px;
 }
 
-footer ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+footer .title h1 {
+  font-family: ligurino,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
 }
 
-footer li {
-  margin-bottom: 10px;
+footer .title p {
+  font-family: ligurino,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
 }
 
-footer .social-icons li {
-  display: inline-block;
-  margin-right: 10px;
+footer a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  transition: color 0.3s;
 }
 
-footer .social-icons li a {
-  color: #fff;
-  font-size: 20px;
-}
-
-footer .copyright {
-  background-color: #222;
-  padding: 20px 0;
-}
-
-footer .copyright p {
-  margin: 0;
-  text-align: center;
+footer a:hover {
+  color: #487da8;
 }
